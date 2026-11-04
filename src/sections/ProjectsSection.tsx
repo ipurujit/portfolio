@@ -12,6 +12,7 @@ export const ProjectsSection: React.FC = () => {
       case 'agentic-ai-iam':
         return <Shield className="w-5 h-5" />;
       case 'iot-intrusion-detection':
+      case 'network-intrusion-attack-path':
         return <Network className="w-5 h-5" />;
       case 'zkp-auth':
         return <Lock className="w-5 h-5" />;

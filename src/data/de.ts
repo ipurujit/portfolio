@@ -162,15 +162,13 @@ Wenn Sie einen hochmotivierten, qualifizierten und erfahrenen Softwareentwickler
       link: PERSONAL_INFO_PUBLIC.url.ciitPaper,
     },
     {
-      id: 'iot-intrusion-detection',
-      title: 'Lightweight Intrusion Detection und Klassifizierung für IoT-Netzwerke',
+      id: 'network-intrusion-attack-path',
+      title: 'Graph-basiertes Machine Learning für Network Intrusion Pfad Klassifizierung und Angriffsquellenverfolgung',
       description:
-        'Ein leichtgewichtiges, zeitreihenbasiertes Machine-Learning-System für ressourcenbeschränkte IoT-Gateways zur Erkennung bösartiger Netzwerkaktivitäten.',
+        'Binäre Klassifizierung von Netzwerkverkehr mittels RandomForest, Support Vector Machine und Multi-Layer-Perceptron-Modellen mit Genauigkeiten von jeweils 95,66%, 88,71% und 93,86%; Rückverfolgung von Angriffspfaden zur Ursprung.',
       highlights: [
-        '96,79% Genauigkeit bei der Binärklassifizierung bösartiger gegen legitimer Pakete.',
-        '83,47% Genauigkeit bei der Multiklassen-Klassifizierung über 18 Angriffskategorien.',
       ],
-      skills: KEY_TO_SKILLS_MAP.project_iot_intrusion_detection,
+      skills: KEY_TO_SKILLS_MAP.project_network_intrusion_attack_path,
     },
     {
       id: 'zkp-auth',

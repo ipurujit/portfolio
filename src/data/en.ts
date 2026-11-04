@@ -162,15 +162,13 @@ If you are looking for a highly motivated, qualified, and experienced software e
       link: PERSONAL_INFO_PUBLIC.url.ciitPaper,
     },
     {
-      id: 'iot-intrusion-detection',
-      title: 'Lightweight IoT Network Intrusion Detection & Classification',
+      id: 'network-intrusion-attack-path',
+      title: 'Graph-Based Machine Learning for Network Intrusion Edge Classification and Attack Source Tracking',
       description:
-        'A lightweight, time-series machine learning system engineered for resource-constrained IoT gateways to detect network intrusion signatures.',
+        'Binary traffic classification using Random Forest, Support Vector Machine, and Multi-Layer Perceptron models with accuracies of 95.66%, 88.71%, and 93.86% respectively; includes attack path tracking back to the source',
       highlights: [
-        '96.79% binary classification accuracy for malicious vs. benign network packets.',
-        '83.47% multi-class classification accuracy across 18 distinct network attack vectors.',
       ],
-      skills: KEY_TO_SKILLS_MAP.project_iot_intrusion_detection,
+      skills: KEY_TO_SKILLS_MAP.project_network_intrusion_attack_path,
     },
     {
       id: 'zkp-auth',

@@ -59,6 +59,7 @@ export const KEY_TO_SKILLS_MAP = {
   // projects
   project_agentic_ai_iam: ['iam', 'zerotrust', 'dids-vcs', 'oidc-oauth', 'pki', 'gcp', 'azure', 'terraform', 'python'],
   project_iot_intrusion_detection: ['python', 'tensorflow', 'keras', 'pandas', 'numpy', 'matplotlib', 'scikit-learn'],
+  project_network_intrusion_attack_path: ['python', 'tensorflow', 'keras', 'pandas', 'numpy', 'matplotlib', 'scikit-learn'],
   project_zkp_auth: ['zkp', 'java', 'springboot', 'schnorr-zkp', 'cryptography', 'security'],
   project_saml_idp: ['java', 'springboot', 'saml', 'security', 'springsecurity', 'sso', 'assertion-encryption'],
   project_crime_analysis_system: ['python', 'react', 'nodejs', 'mongodb', 'rest'],
