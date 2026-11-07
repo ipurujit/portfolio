@@ -214,13 +214,14 @@ If you are looking for a highly motivated, qualified, and experienced software e
     {
       id: 'cybermacs-master',
       degree: "Erasmus Mundus CyberMACS (Joint Master's in Applied Cybersecurity)",
-      institution: 'Kadir Has University (KHAS) & Ss. Cyril and Methodius University (UKIM)',
+      institution: 'Kadir Has University (KHAS) & Faculty of Computer Science and Engineering (FINKI) at Ss. Cyril and Methodius University (UKIM)',
       location: 'Istanbul, Türkiye & Skopje, North Macedonia',
       period: 'Sep 2024 - Sep 2026',
       grade: '3.92 / 4.00 GPA',
       details: [
         'Prestigious EU Erasmus Mundus Scholarship recipient.',
         'Core curriculum: Digital Identity, Penetration Testing, Web & AI Security, Network Security, Applied Cryptography, Privacy in Machine Learning, and Information Security Management.',
+        'Received degrees: Master of Science (M.Sc.) in Cyber Security from KHAS and Master of Science (M.Sc.) in Security, Cryptography and Coding from FINKI UKIM.'
       ],
       thesis: {
         title: 'Master Thesis',
