@@ -46,6 +46,7 @@ Wenn Sie einen hochmotivierten, qualifizierten und erfahrenen Softwareentwickler
     jumpToFirst: 'Zum ersten Treffer springen',
     viewCredential: 'Zertifikat ansehen',
     readPublication: 'Publikation lesen',
+    authorsLabel: 'Autor:innen:',
     viewCode: 'Quellcode / Details ansehen',
     skipToContent: 'Zum Hauptinhalt springen',
     themeToggleDark: 'Zu hellem Design wechseln',
@@ -305,6 +306,7 @@ Wenn Sie einen hochmotivierten, qualifizierten und erfahrenen Softwareentwickler
     {
       id: 'baeldung-10-articles',
       type: 'article',
+      authors: PERSONAL_INFO_PUBLIC.name + ' und das Baeldung Redaktionsteam',
       title: 'Autor von 10 technischen Fachartikeln auf Baeldung Linux',
       venue: 'Baeldung Linux',
       date: '2023 - 2024',
@@ -318,6 +320,7 @@ Wenn Sie einen hochmotivierten, qualifizierten und erfahrenen Softwareentwickler
     {
       id: 'iacyc-2026',
       type: 'conference',
+      authors: PERSONAL_INFO_PUBLIC.name + ', ' + PERSONAL_INFO_PUBLIC.coauthors.mkg + ', ' + PERSONAL_INFO_PUBLIC.coauthors.oc,
       title:
         'A Cloud-Agnostic IAM Framework for Agentic AI in Multi-Cloud Environments Using Decentralized Identifiers and Verifiable Credentials',
       venue: 'IACyC 2026 Konferenz (International Applied Cybersecurity Conference)',
@@ -330,6 +333,7 @@ Wenn Sie einen hochmotivierten, qualifizierten und erfahrenen Softwareentwickler
     {
       id: 'ciit-2026',
       type: 'conference',
+      authors: PERSONAL_INFO_PUBLIC.name + ', ' + PERSONAL_INFO_PUBLIC.coauthors.mkg,
       title: 'Identity and Access Management for Securing Multi-Cloud Access for Agentic AI Workloads',
       venue: 'CIIT 2026 Konferenz (Conference on Informatics and Information Technologies)',
       date: '04.2026',
@@ -343,6 +347,8 @@ Wenn Sie einen hochmotivierten, qualifizierten und erfahrenen Softwareentwickler
     {
       id: 'ieee-tensymp-2022',
       type: 'research',
+      authors: PERSONAL_INFO_PUBLIC.coauthors.ss + ', ' + PERSONAL_INFO_PUBLIC.coauthors.au + ', ' + PERSONAL_INFO_PUBLIC.name + ', ' + PERSONAL_INFO_PUBLIC.coauthors.sd,
+      authorHint: 'Die ersten drei Autoren haben gleiche Beiträge geleistet.',
       title: 'Fuzzy Based Geo-Spatial Crime Category Prediction for Crime Mapping and Safe Route Travel',
       venue: 'IEEE TENSYMP 2022 Internationale Konferenz',
       date: '07.2022',

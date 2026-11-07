@@ -12,6 +12,13 @@ export const PERSONAL_INFO_PUBLIC = {
     baeldung: 'https://www.baeldung.com/linux/author/purujitsrinivasan',
     bachelorPaper: 'https://ieeexplore.ieee.org/document/9864342',
     ciitPaper: 'https://ciit.finki.ukim.mk/proceedings/ciit-2026-proceedings.pdf#page=309',
+  },
+  coauthors: {
+    mkg: 'Magdalena Kostoska Gjorchevska',
+    oc: 'Oğuzhan Ceylan',
+    sd: 'Sangita Chaudhari',
+    ss: 'Sagar Sharma',
+    au: 'Abhishek Uniyal',
   }
 };
 

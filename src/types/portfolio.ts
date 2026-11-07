@@ -86,6 +86,8 @@ export interface CertificationItem {
 export interface PublicationItem {
   id: string;
   type: 'article' | 'conference' | 'research';
+  authors: string;
+  authorHint?: string;
   title: string;
   venue: string;
   date: string;
@@ -153,6 +155,7 @@ export interface PortfolioData {
     jumpToFirst: string;
     viewCredential: string;
     readPublication: string;
+    authorsLabel: string;
     viewCode: string;
     skipToContent: string;
     themeToggleDark: string;

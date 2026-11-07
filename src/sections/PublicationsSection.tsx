@@ -27,11 +27,10 @@ export const PublicationsSection: React.FC = () => {
               <article
                 key={pub.id}
                 data-has-skill={pub.skills.join(' ')}
-                className={`border p-6 transition-all duration-200 ${
-                  isMatch
+                className={`border p-6 transition-all duration-200 ${isMatch
                     ? 'border-zinc-950 dark:border-white bg-zinc-100/90 dark:bg-zinc-900 shadow-xl ring-2 ring-zinc-900/20 dark:ring-white/20'
                     : 'border-zinc-300 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-900/40 hover:border-zinc-400 dark:hover:border-zinc-700'
-                } ${isDimmed ? 'opacity-50' : 'opacity-100'}`}
+                  } ${isDimmed ? 'opacity-50' : 'opacity-100'}`}
               >
                 <div className="flex flex-col md:flex-row md:items-start justify-between gap-3 pb-3 border-b border-zinc-200 dark:border-zinc-800">
                   <div className="flex items-start gap-3">
@@ -51,6 +50,13 @@ export const PublicationsSection: React.FC = () => {
                       <h3 className="text-base sm:text-lg font-bold text-zinc-950 dark:text-white leading-snug">
                         {pub.title}
                       </h3>
+                      <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
+                        <span className="font-semibold">{data.ui.authorsLabel}</span>{' '}
+                        {pub.authors}
+                      </p>
+                      {pub.authorHint && (<p className="mt-1 text-sm italic text-zinc-600 dark:text-zinc-400">
+                        {pub.authorHint}
+                      </p>)}
                       {pub.location && (
                         <span className="mt-2 flex w-fit items-center gap-1.5 text-sm font-mono text-zinc-500 dark:text-zinc-400">
                           <MapPin className="w-3 h-3 shrink-0" aria-hidden="true" />
