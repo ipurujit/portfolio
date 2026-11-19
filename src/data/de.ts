@@ -4,21 +4,36 @@ import { PERSONAL_INFO_PUBLIC, KEY_TO_SKILLS_MAP } from './basic';
 export const DE_DATA: PortfolioData = {
   meta: {
     name: PERSONAL_INFO_PUBLIC.name,
-    title: 'Cyber Security | Full-Stack Entwickler | Cloud-, Software-, KI-Sicherheit',
+    title: 'Cyber Security (MSc.) | Full-Stack Entwickler | Digitale Infrastruktur, Software und KI-Sicherheit',
     email: PERSONAL_INFO_PUBLIC.email,
     phone: PERSONAL_INFO_PUBLIC.phone,
     phoneDigitsOnly: PERSONAL_INFO_PUBLIC.phoneDigitsOnly,
     location: 'Deutschland',
     nationality: 'Inder',
     bio:
-      `- Microsoft Azure Zertifizierter Cloud- und KI-Security Engineer
-- Absolvent des Erasmus-Mundus-Doppelmasterabschlusses in angewandter Cybersicherheit
-- 2+ Jahren Vollzeiterfahrung als Software Engineer im Enterprise-Umfeld
+      `Ich ermögliche sichere Architektur, Entwicklung, Bereitstellung und Verwaltung von Software und Infrastruktur:
+- Erfahrener Software- und Cloud-Engineer (3+ Jahre)
+- Microsoft Certified Cloud and AI Security Engineer Associate (SC-500), CCNA
+- M.Sc. in angewandter Cybersicherheit (Erasmus Mundus CyberMACS, 3,92/4 Note)
+- C1-Deutsch (beweisbar mit TestDaF TDN 5 Ergebnis) und C2-Englisch
 
-Ich bringe Große Leidenschaft für Themen wie Identity & Access Management (IAM), Multi-Cloud-Sicherheit (AWS/GCP/Azure), Zero-Trust-Architektur, DevSecOps sowie Anwendungssecurity mit.
+Was ich mitbringe:
+- Software Engineering: Java/Spring Boot, Node.js/TypeScript, React/Next.js, PostgreSQL, MongoDB, Kafka, Python
+- Cloud und IAM: Multi-Cloud (AWS/GCP/Azure), IAM-Rollen und -Policies, föderierte Identitäten (OIDC, OAuth 2.0, SAML), Workload Identity Federation, Keycloak
+- AppSec und DevSecOps: SAST (SonarQube) und DAST (ZAP) in CI/CD-Pipelines, Terraform, Kubernetes, Docker
+- GRC: Schwachstellen- und Incident-Management nach ISO/IEC 27001 und BSI IT-Grundschutz, Risikoanalyse und -Bewertung
 
-Weiterhin C1-Deutschkenntnisse (TestDaF TDN 5) und C2-Englisch.
-Wenn Sie einen hochmotivierten, qualifizierten und erfahrenen Softwareentwickler mit tiefe praktische Sicherheitskenntnisse suchen, der sofort in Deutschland verfügbar ist, freue ich mich auf Ihre Kontaktaufnahme.`,
+Ich suche Stellen in Deutschland zur langfristigen Beschäftigung (mindestens 18 Monate):
+- Cyber Security Engineer/Consultant
+- Cloud Engineer/Consultant/Architekt
+- Software Engineer
+- Forward Deployed Engineer
+
+Verfügbarkeit: ab sofort
+
+mein Wohnort: NRW, Deutschland
+
+Empfehlungen, Tipps oder auch nur Vernetzen-Anfragen sind willkommen!`,
     openToWorkCTA: 'Offen für Vollzeitstellen in Cloud/Application-Security\nAutorisiert zur sofortigen Teilzeitbeschäftigung (20 Stunden/Woche) in Deutschland',
     avatarAlt: PERSONAL_INFO_PUBLIC.name + ' professionelles Porträt',
     avatarPhotoUrl: PERSONAL_INFO_PUBLIC.url.avatar,
@@ -85,17 +100,17 @@ Wenn Sie einen hochmotivierten, qualifizierten und erfahrenen Softwareentwickler
   experiences: [
     {
       id: 'madpat-cybersec',
-      role: 'Cyber Security Praktikant',
+      role: 'Praktikant Cybersicherheit',
       company: 'madpat GmbH',
       companyUrl: 'https://www.empplan.com/',
       location: 'Remseck am Neckar, Deutschland',
       period: '07.2025 - 09.2025',
       type: 'Praktikum vor Ort',
       description: [
-        'Automatisierung von dynamischen API-Sicherheitstests mit Sicherheitswarnungen.',
-        'Automatisierung statischer Code-Scans in CI/CD-Pipelines zur frühen Erkennung von Softwareschwachstellen.',
-        'Analyse, Dokumentation und Anpassung von Schwachstellen- und Vorfallsmanagementprozessen nach ISO/IEC 27001 und BSI IT-Grundschutz.',
-        'Durchführung von detaillierten Risiko- und Bedrohungsanalysen für Unternehmen und Zuordnung von Bedrohungskategorien zu Asset-Gruppen.',
+        'Dynamischen API-Sicherheitstests mit Sicherheitswarnungen automatisiert.',
+        'Statischer Code-Scans in CI/CD-Pipelines zur frühen Erkennung von Softwareschwachstellen automatisiert.',
+        'Schwachstellen- und Vorfallsmanagementprozessen anhand von ISO/IEC 27001 und BSI IT-Grundschutz analysiert, angepasst und dokumentiert.',
+        'Risiko- und Bedrohungsanalysen für Unternehmen durchgeführt und Bedrohungskategorien zugeordnet, um die Sicherheitslage zu verbessern.',
       ],
       skills: KEY_TO_SKILLS_MAP.work_exp_madpat_cysec,
     },
@@ -108,11 +123,11 @@ Wenn Sie einen hochmotivierten, qualifizierten und erfahrenen Softwareentwickler
       period: '06.2022 - 08.2024',
       type: 'Vollzeit',
       description: [
-        'Aufgestiegen von ASDE 1 zu ASDE 2; erweiterte Verantwortung bei Design und Umsetzung von Cloud-Native-Enterprise-Projekten in den Bereichen Finanzen, Reisen und Telekom.',
-        'Implementierung von resilienten Backend-Microservices mit Spring Boot (WebFlux & MVC REST APIs), Unit-Tests mit JUnit und Mockito, Datenbanken (PostgreSQL, MongoDB) sowie Apache Kafka Event-Brokern.',
-        'Entwicklung von Frontend-Webanwendungen mit React.js und Next.js; Erstellung von Python-Skripten zur Datenanalyse und Workflow-Automatisierung.',
-        'Sicheres Architektur- und Systemdesign im Multi-Cloud-Umfeld (AWS/GCP/Azure); Verwaltung von Identity & Access Management (IAM) und föderierten Identitäten (OIDC, OAuth, SAML, LDAP).',
-        'Umsetzung von DevSecOps-Pipelines mit Jenkins und SonarQube-Qualitäts-Gates, Docker-Containerisierung und Terraform für Infrastruktur als Code (IaC).',
+        'Java/Node.js Full-Stack-Entwicklung im Enterprise-Umfeld in den Bereichen Finanzen, Reisen und Telekom im gesamten Softwarelebenszyklus in einer agilen Umgebung.',
+        'Kundenanforderungen analysiert und Funktionen nach vereinbarten Entwicklungs- und Sicherheitsstandards für digitale Transformation der Kunden entwickelt, getestet und bereitgestellt.',
+        'Backend-Funktionen mit Spring Boot (WebFlux/MVC REST API Microservices) entwickelt; Unit-Tests mit JUnit, Mockito durchgeführt; Datenbanken (PostgreSQL, MongoDB) sowie Event-Broker (Kafka) konfiguriert und bereitgestellt; Frontend mit React.js/Next.js mit TypeScript entwickelt; Python-Skripte zur Datenanalyse, -Bearbeitung und Automatisierung entwickelt.',
+        'Sicheres Architekturdesign und Systemdesign: Infrastruktur im Multi-Cloud-Umfeld (AWS/GCP/Azure) mit Cloud-Ressourcen geplant, konfiguriert und bereitgestellt; deren Zugriff durch Identity \& Access Management (IAM) und Überwachung verwaltet; föderierte Identitäten (z.B. mit OIDC und OAuth, SAML) umgesetzt.',
+        'DevOps mit GitLab/Jenkins CI/CD und Code-Scans mit SonarQube zur Codequalitätsprüfung aktualisiert; Kubernetes- und Docker-Container verwaltet; Terraform als Infrastructure-as-Code (IaC) eingesetzt.',
       ],
       skills: KEY_TO_SKILLS_MAP.work_exp_sapient_asde,
     },
@@ -125,25 +140,26 @@ Wenn Sie einen hochmotivierten, qualifizierten und erfahrenen Softwareentwickler
       period: '10.2021 - 05.2022',
       type: 'Teilzeit freiberuflich neben dem Bachelorstudium',
       description: [
-        'Full-Stack-Feature-Entwicklung mit MEAN/MERN und TypeScript für EMPPLAN, eine Sales- und Promotionmanagement-Plattform.',
-        'Erweiterung der Testabdeckung mit Mocha Unittesting und Einbindung automatisierter Testphasen in die CI/CD-Pipeline.',
-        'Reduzierung von Abfrage- und Antwortzeiten für zentrale Funktionen, insbesondere Dashboards für Kundenanalysen.',
-        'Teilnahme an regelmäßigen agilen Sprint-Calls mit dem Kunden, Klärung technischer Anforderungen sowie Pflege und Erweiterung der Dokumentation.',
+        'Feature-Wünsche in Full-Stack (MEAN/MERN+TypeScript) für EMPPLAN, eine Sales- und Promotionmanagement-Plattform, umgesetzt, einschließlich Unit-Tests.',
+        'Bestehende CI/CD-Pipeline um automatisiertes Testen erweitert; Testabdeckung mit Unittesting erhöht.',
+        'Zentrale Funktionen, wie Dashboards für Kundenanalysen, optimiert und deren Abfrage- und Antwortzeiten reduziert.',
+        'An Sprint-Calls mit dem Kundenteam zu Featurewünschen teilgenommen und Umsetzung koordiniert; EMPPLAN-Dokumentation aktualisiert und verbessert.',
       ],
       skills: KEY_TO_SKILLS_MAP.work_exp_madpat_js,
     },
     {
       id: 'booksapp-backend',
-      role: 'Backend Entwickler (freiberuflich)',
+      role: 'Lead (Haupt) Backend Entwickler (freiberuflich)',
       company: 'BooksApp',
       location: 'Remote (Indien)',
       period: '01.2021 - 05.2021',
       type: 'Freiberufliches Projekt neben dem Bachelorstudium',
       description: [
-        'Ende-zu-Ende-Backend-Entwicklung eines Node.js- & Express.js-REST-API-Servers für eine von Grund auf neu entwickelte Plattform zur Digitalisierung des notariellen Beurkundungsprozesses.',
-        'Implementierung einer rollenbasierten Zugriffskontrolle (RBAC), strukturierte Fehlerbehandlung mit async/await und Dokumentation getesteter API-Endpunkte mit Postman.',
-        'Entwicklung skalierbarer MongoDB-Datenbankschemata mit Mongoose ODM und Integration von Intuit QuickBooks zur automatisierten Rechnungsstellung.',
-        'Eigenständige Konfiguration von AWS IAM-Rollen, Richtlinien und S3-Bucket-Berechtigungen sowie Verwaltung der Entwicklungs-Cloud-Infrastruktur.',
+        'Die Verantwortung der Ende-zu-Ende-Backend-Entwicklung eines REST-API-Servers mit Node.js für eine von Grund auf neu entwickelte Plattform aufgenommen und umgesetzt; die Plattform dient zur Terminbuchung und Verwaltung notarieller Beurkundungsabläufe.',
+        'Implementierung einer rollenbasierten Zugriffskontrolle (RBAC), strukturierte Fehlerbehandlung mit async/await und Dokumentation mit Postman getesteter API.',
+        'MongoDB-Datenmodellen mit Mongoose ODM zur Steuerung von Buchungs- und Workflow-Status entwickelt.',
+        'Intuit QuickBooks zur automatisierten Rechnungserstellung und -berechnung integriert.',
+        'Cloud-Infrastruktur verwaltet: Ressourcen bereitstellen, IAM-Rollen und -Policies sowie S3-Bucket-Zugriff konfigurieren; MongoDB, Heroku, Firebase von Grund auf neu eingerichtet und verwaltet.',
       ],
       skills: KEY_TO_SKILLS_MAP.work_exp_booksapp_backend,
     },
@@ -151,12 +167,12 @@ Wenn Sie einen hochmotivierten, qualifizierten und erfahrenen Softwareentwickler
   projects: [
     {
       id: 'agentic-ai-iam',
-      title: 'Agentische KI-Identitäts- und Zugriffsverwaltung für Multi-Cloud-Zugriff',
+      title: 'Identitäts- und Zugriffsverwaltung für agentische KI für sicheren Zugriff auf Multi-Cloud-Dienste',
       description:
         'Eine Zero-Trust-Identitäts- und Zugriffsverwaltungslösung, die Authentifizierung, Autorisierung und Accounting für KI-Agenten für sicheren Zugriff auf Multi-Cloud Workloads',
       highlights: [
         'Zero-Trust-Architektur auf Basis von dezentralen Identifikatoren (DIDs) und verifizierbaren Credentials (VCs).',
-        'Kryptografisch verifizierbare Delegationskettenverfolgung (ähnlich wie PKI) und OIDC-Workload-Federation.',
+        'Kryptografisch verifizierbare Delegationsketten (ähnlich wie PKI) und OIDC-Workload-Federation.',
         'Integration von Google Cloud Workload Identity Federation und Microsoft Azure Entra Workload ID mit Terraform-Automatisierung.',
       ],
       skills: KEY_TO_SKILLS_MAP.project_agentic_ai_iam,
@@ -164,9 +180,9 @@ Wenn Sie einen hochmotivierten, qualifizierten und erfahrenen Softwareentwickler
     },
     {
       id: 'network-intrusion-attack-path',
-      title: 'Graph-basiertes Machine Learning für Network Intrusion Pfad Klassifizierung und Angriffsquellenverfolgung',
+      title: 'Graph-basiertes Machine Learning zur Klassifizierung von Netzeindringpfaden und zur Rückverfolgung von Angriffsquellen',
       description:
-        'Binäre Klassifizierung von Netzwerkverkehr mittels RandomForest, Support Vector Machine und Multi-Layer-Perceptron-Modellen mit Genauigkeiten von jeweils 95,66%, 88,71% und 93,86%; Rückverfolgung von Angriffspfaden zur Ursprung.',
+        'Binäre Klassifizierung von Netzwerkverkehr mittels RandomForest, Support Vector Machine und Multi-Layer-Perceptron-Modellen mit Genauigkeiten von jeweils 95,66%, 88,71% und 93,86%; Rückverfolgung von Angriffspfaden.',
       highlights: [
       ],
       skills: KEY_TO_SKILLS_MAP.project_network_intrusion_attack_path,
@@ -193,7 +209,7 @@ Wenn Sie einen hochmotivierten, qualifizierten und erfahrenen Softwareentwickler
       id: 'crime-analysis-system',
       title: 'Geo-Intelligentes Verbrechenanalysensystem',
       description:
-        'Mobile App für Menschen zur Einsicht von Kriminalitätshotspots auf Karten, sowie Web-Portal für Behörden mit Kriminalitätstypvorhersage.',
+        'Mobile App für Menschen zur Einsicht von Kriminalitätshotspots auf Karten sowie ein Webportal für Behörden mit Kriminalitätstypvorhersage.',
       highlights: [
         '92,55% Genauigkeit bei der Vorhersage von Kriminalitätstypen.',
         'Veröffentlicht und präsentiert auf der internationalen IEEE TENSYMP-Konferenz 2022.',
@@ -222,7 +238,7 @@ Wenn Sie einen hochmotivierten, qualifizierten und erfahrenen Softwareentwickler
       details: [
         'Empfänger des renommierten Exzellenzstipendiums der Europäischen Union (Erasmus Mundus).',
         'Schwerpunkte: Digitale Identität, Penetration Testing, Web-, KI- und Netzwerksicherheit, Kryptographie, Privatsphäre in ML, Informationssicherheitsmanagement.',
-        'Erhaltene Abschlüsse: Master of Science (M.Sc.) in Cyber Security von KHAS und Master of Science (M.Sc.) in Security, Cryptography and Coding von FINKI UKIM.',
+        'Erworbene Abschlüsse: Master of Science (M.Sc.) in Cyber Security von KHAS und Master of Science (M.Sc.) in Security, Cryptography and Coding von FINKI UKIM.',
       ],
       thesis: {
         title: 'Masterarbeit',
@@ -397,7 +413,7 @@ Wenn Sie einen hochmotivierten, qualifizierten und erfahrenen Softwareentwickler
       description: [
         'Organisiert und engagiert in Gemeinschaftsdienstveranstaltungen für die Verbesserung der Gesellschaft, wie z.B. Frauenförderung, Bildung benachteiligter Kinder und Verbreitung von Gesundheitssicherheitsbewusstsein während der Pandemie.',
         'Teilnahme an einem 7-tägigen Camp in einem ländlichen Gebiet zur Arbeit an der ländlichen Entwicklung.',
-        'Gewann Preise bei universitätsweiten literarischen Wettbewerben, die für soziale Zwecke durchgeführt wurden: Rap-Gesang (über Frauenförderung, COVID-Bewusstsein), Gedichteschreiben (über AIDS-Bewusstsein)',
+        'Preise bei universitätsweiten literarischen Wettbewerben, die für soziale Zwecke durchgeführt wurden: Rap-Gesang (über Frauenförderung, COVID-Bewusstsein), Gedichteschreiben (über AIDS-Bewusstsein)',
       ],
       skills: [],
     },

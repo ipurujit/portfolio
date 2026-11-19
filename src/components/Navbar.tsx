@@ -17,8 +17,10 @@ import {
   FileText,
   FileCheck,
   HeartHandshake,
+  Mail,
 } from 'lucide-react';
 import { Locale } from '../types/portfolio';
+import { SOCIAL_LINKS } from '../data/common';
 
 export const Navbar: React.FC = () => {
   const { locale, setLocale, theme, toggleTheme, data } = usePortfolio();
@@ -271,6 +273,16 @@ export const Navbar: React.FC = () => {
                 <Moon className="w-4 h-4 text-zinc-900" aria-hidden="true" />
               )}
             </button>
+
+            {/* Email Contact */}
+            <a
+              href={`mailto:${data.meta.email}`}
+              className="inline-flex items-center justify-center p-1.5 sm:p-2 border border-zinc-300 dark:border-zinc-700 bg-zinc-100 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100 hover:bg-zinc-200 dark:hover:bg-zinc-800 transition-colors focus-visible:ring-2 cursor-pointer"
+              title={data.navigation.contact}
+              aria-label={`Email ${data.meta.name}`}
+            >
+              <Mail className="w-4 h-4" aria-hidden="true" />
+            </a>
 
             {/* Mobile menu toggle */}
             <button

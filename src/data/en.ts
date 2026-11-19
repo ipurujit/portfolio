@@ -4,21 +4,38 @@ import { PERSONAL_INFO_PUBLIC, KEY_TO_SKILLS_MAP } from './basic';
 export const EN_DATA: PortfolioData = {
   meta: {
     name: PERSONAL_INFO_PUBLIC.name,
-    title: 'Cyber Security | Full-Stack Developer | Cloud, Software, AI Security',
+    title: 'Cyber Security | Full-Stack Developer | Digital Infrastructure, Software, and AI Security',
     email: PERSONAL_INFO_PUBLIC.email,
     phone: PERSONAL_INFO_PUBLIC.phone,
     phoneDigitsOnly: PERSONAL_INFO_PUBLIC.phoneDigitsOnly,
     location: 'Germany',
     nationality: 'Indian',
     bio:
-      `- Microsoft Azure Certified Cloud and AI Security Engineer
-- Erasmus Mundus CyberMACS (Joint Master's in Applied Cybersecurity) Graduate
-- 2+ years of full-time experience as a Software Engineer in Enterprise environments
+      `I secure architecture, development, deployment, and management of software and infrastructure:
+- Experienced software and cloud engineer (3+ years)
+- Microsoft Certified Cloud and AI Security Engineer Associate (SC-500), CCNA
+- M.Sc. in Applied Cybersecurity (Erasmus Mundus CyberMACS, 3.92/4 GPA)
+- C1-level German (proof: TestDaF score of TDN 5) and C2-level English
 
-I bring strong passion for Identity & Access Management (IAM), Multi-Cloud Security (AWS/GCP/Azure), Zero Trust Architecture, DevSecOps, and Application Security.
+What I bring with me:
 
-Also possess C1 German language proficiency (TestDaF TDN 5) and C2 English proficiency.
-If you are looking for a highly motivated, qualified, and experienced software engineer with deep practical security expertise who is immediately available in Germany, I would be delighted to hear from you.`,
+- Software Engineering: Java/Spring Boot, Node.js/TypeScript, React/Next.js, PostgreSQL, MongoDB, Kafka, Python
+- Cloud and IAM: Multi-cloud (AWS/GCP/Azure), IAM roles and policies, federated identities (OIDC, OAuth 2.0, SAML), Workload Identity Federation, Keycloak
+- AppSec and DevSecOps: SAST (SonarQube) and DAST (ZAP) in CI/CD pipelines, Terraform, Kubernetes, Docker
+- GRC: Vulnerability and incident management according to ISO/IEC 27001 and BSI IT-Grundschutz, risk analysis and assessment
+
+I am looking for long-term employment opportunities in Germany (at least 18 months):
+
+- Cybersecurity Engineer/Consultant
+- Cloud Engineer/Consultant/Architect
+- Software Engineer
+- Forward Deployed Engineer
+
+Availability: immediately
+
+My location: North Rhine-Westphalia, Germany
+
+Recommendations, tips, or even just networking requests are welcome!`,
     openToWorkCTA: 'Open to full-time opportunities in Cloud/Application Security.\nAuthorized for immediate part-time employment (20 hours/week) in Germany',
     avatarAlt: PERSONAL_INFO_PUBLIC.name + ' professional portrait',
     avatarPhotoUrl: PERSONAL_INFO_PUBLIC.url.avatar,
@@ -108,11 +125,11 @@ If you are looking for a highly motivated, qualified, and experienced software e
       period: 'Jun 2022 - Aug 2024',
       type: 'Full-time',
       description: [
-        'Promoted from ASDE 1 to ASDE 2; assumed advanced responsibilities in designing and delivering cloud-native full-stack enterprise solutions in Finance, Travel, and Telecom sectors.',
-        'Engineered enterprise backend microservices with Spring Boot (WebFlux & MVC REST APIs), JUnit, Mockito, PostgreSQL, MongoDB, and Apache Kafka event brokers.',
-        'Built performant frontend web applications with React.js and Next.js, and authored Python automation scripts for data pipeline processing.',
-        'Architected secure multi-cloud environments across AWS, GCP, and Azure; managed Identity & Access Management (IAM) and federated authentication (OIDC, OAuth, SAML, LDAP).',
-        'Implemented DevSecOps pipelines with Jenkins and SonarQube quality gates, Docker containerization, and Terraform Infrastructure as Code (IaC).',
+        'Java/Node.js full-stack development in (Finance / Travel / Telecom) adhering to security aspects throughout the entire software development lifecycle (SDLC) following agile methodology.',
+        'Analysed client requirements and implemented features following security best practices and standards for their digital transformation.',
+        'Implemented backend microservices using Spring Boot (WebFlux/MVC) and unit testing with JUnit, Mockito, integrated with databases (PostgreSQL, MongoDB) and event brokers (Kafka), GraphQL for API integration, frontend with React.js/Next.js with TypeScript; Automated data analysis and processing with Python scripts.',
+        'Secure architecture and system design for infrastructure and services in multi-cloud environments (AWS/GCP/Azure): planned, configured and deployed (also with Terraform), managed access through Identity \& Access Management (IAM) and monitoring; configured federated identities (e.g. with OIDC and OAuth, SAML).',
+        'Configured DevOps with Gitlab/Jenkins CI/CD, SonarQube for code quality, Kubernetes and Docker container management and Terraform Infrastructure as Code (IaC).',
       ],
       skills: KEY_TO_SKILLS_MAP.work_exp_sapient_asde,
     },
@@ -126,24 +143,25 @@ If you are looking for a highly motivated, qualified, and experienced software e
       type: 'Part-time freelance during Bachelor studies',
       description: [
         'Engineered full-stack features using MEAN/MERN and TypeScript for EMPPLAN, a sales and promotion management platform.',
-        'Scaled automated test coverage with Mocha and configured automated test stages within the Dockerized CI/CD pipeline.',
-        'Optimized core database query routines, reducing response times for high-volume customer analytics dashboards.',
-        'Collaborated closely with enterprise client teams in agile sprints to translate feature requests into technical delivery and documentation.',
+        'Scaled-up automated testing and coverage with Mocha; configured testing stage in the CI/CD pipeline.',
+        'Reduced query and response time for some core features, such as dashboards for sales and promotion analysis.',
+        'Participated in Sprint calls with the client about feature requests; maintained and expanded EMPPLAN documentation.',
       ],
       skills: KEY_TO_SKILLS_MAP.work_exp_madpat_js,
     },
     {
       id: 'booksapp-backend',
-      role: 'Backend Developer (Freelance)',
+      role: 'Lead (Primary) Backend Developer (Freelance)',
       company: 'BooksApp',
       location: 'Remote (India)',
       period: 'Jan 2021 - May 2021',
       type: 'Freelance project during Bachelor studies',
       description: [
-        'Built an end-to-end Node.js & Express.js REST API server from scratch for digitization of the notarization workflows.',
-        'Designed RBAC-driven authorization, comprehensive error handling, and API documentation verified through Postman.',
-        'Modeled scalable database schemas using Mongoose ODM for MongoDB and integrated Intuit QuickBooks for automated invoicing.',
-        'Configured AWS IAM roles, policies, S3 bucket security policies and managed the cloud infrastructure.',
+        'Handled end-to-end backend development of a Node.js REST API server for a notarization-order management system developed from scratch.',
+        'Designed RBAC-driven authorization and API documentation validated through Postman.',
+        'Designed and implemented scalable database designs using Mongoose ODM for MongoDB.',
+        'Integrated Intuit QuickBooks to enable automated invoice generation and calculation.',
+        'Managed the cloud infrastructure, deployed resources, configured AWS IAM roles and policies and managed S3 bucket access; set up and maintained MongoDB, Heroku, Firebase end-to-end.',
       ],
       skills: KEY_TO_SKILLS_MAP.work_exp_booksapp_backend,
     },
@@ -151,7 +169,7 @@ If you are looking for a highly motivated, qualified, and experienced software e
   projects: [
     {
       id: 'agentic-ai-iam',
-      title: 'Agentic AI Identity and Access Management for Multi-Cloud',
+      title: 'Identity and Access Management for securing agentic AI access to Multi-Cloud Workloads',
       description:
         'A zero-trust identity and access management architecture handling authentication, authorization, and accounting for AI agents for securing access to multi-cloud workloads',
       highlights: [
