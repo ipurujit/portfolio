@@ -16,11 +16,7 @@ export const ExperienceSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           title={data.navigation.experience}
-          subtitle={
-            locale === 'de'
-              ? '2+ Jahre Vollzeiterfahrung im Enterprise-Software-Engineering sowie Praxiserfahrung in Cyber Security und Cloud-Infrastruktur.'
-              : '2+ years of full-time enterprise software development alongside dedicated cybersecurity and cloud security engineering.'
-          }
+          subtitle={data.navigation.experienceSubTitle}
         />
 
         <div className="space-y-6">

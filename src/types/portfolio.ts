@@ -141,6 +141,7 @@ export interface PortfolioData {
     experience: string;
     projects: string;
     education: string;
+    experienceSubTitle: string;
     certifications: string;
     publications: string;
     languages: string;

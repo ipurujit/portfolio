@@ -40,8 +40,8 @@ const PortfolioContent: React.FC = () => {
         <AboutSection />
         {/* <WorkAuthSection /> */}
         <SkillsSection />
-        <EducationSection />
         <ExperienceSection />
+        <EducationSection />
         <ProjectsSection />
         <PublicationsSection />
         <CertificationsSection />
