@@ -37,7 +37,7 @@ Availability: immediately
 My location: North Rhine-Westphalia, Germany
 
 Recommendations, tips, or even just networking requests are welcome!`,
-    openToWorkCTA: 'Open to full-time opportunities in Cloud/Application Security.\nAuthorized for immediate part-time employment (20 hours/week) in Germany',
+    openToWorkCTA: 'Open to full-time opportunities in Cybersecurity.\nAuthorized for immediate part-time employment (20 hours/week) in Germany',
     avatarAlt: PERSONAL_INFO_PUBLIC.name + ' professional portrait',
     avatarPhotoUrl: PERSONAL_INFO_PUBLIC.url.avatar,
     fallbackTitle: '',

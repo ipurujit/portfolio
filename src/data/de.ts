@@ -35,7 +35,7 @@ Verfügbarkeit: ab sofort
 mein Wohnort: NRW, Deutschland
 
 Empfehlungen, Tipps oder auch nur Vernetzen-Anfragen sind willkommen!`,
-    openToWorkCTA: 'Offen für Vollzeitstellen in Cloud/Application-Security\nAutorisiert zur sofortigen Teilzeitbeschäftigung (20 Stunden/Woche) in Deutschland',
+    openToWorkCTA: 'Offen für Vollzeitstellen in Cybersicherheit\nAutorisiert zur sofortigen Teilzeitbeschäftigung (20 Stunden/Woche) in Deutschland',
     avatarAlt: PERSONAL_INFO_PUBLIC.name + ' professionelles Porträt',
     avatarPhotoUrl: PERSONAL_INFO_PUBLIC.url.avatar,
     fallbackTitle: '',
