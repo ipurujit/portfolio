@@ -24,10 +24,11 @@ What I bring with me:
 - AppSec and DevSecOps: SAST (SonarQube) and DAST (ZAP) in CI/CD pipelines, Terraform, Kubernetes, Docker
 - GRC: Vulnerability and incident management according to ISO/IEC 27001 and BSI IT-Grundschutz, risk analysis and assessment
 
-I am looking for long-term employment opportunities in Germany (at least 18 months):
+I am open to the following kind of roles:
 
 - Cybersecurity Engineer/Consultant
 - Cloud Engineer/Consultant/Architect
+- System Administrator/DevOps Engineer
 - Software Engineer
 - Forward Deployed Engineer
 

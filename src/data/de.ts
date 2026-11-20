@@ -23,9 +23,10 @@ Was ich mitbringe:
 - AppSec und DevSecOps: SAST (SonarQube) und DAST (ZAP) in CI/CD-Pipelines, Terraform, Kubernetes, Docker
 - GRC: Schwachstellen- und Incident-Management nach ISO/IEC 27001 und BSI IT-Grundschutz, Risikoanalyse und -Bewertung
 
-Ich suche Stellen in Deutschland zur langfristigen Beschäftigung (mindestens 18 Monate):
+Ich suche Stellen wie die Folgenden:
 - Cyber Security Engineer/Consultant
 - Cloud Engineer/Consultant/Architekt
+- System Administrator/DevOps Engineer/Fachinformatiker für Systemintegration
 - Software Engineer
 - Forward Deployed Engineer
 
