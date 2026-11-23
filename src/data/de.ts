@@ -105,7 +105,7 @@ Empfehlungen, Tipps oder auch nur Vernetzen-Anfragen sind willkommen!`,
       companyUrl: 'https://www.empplan.com/',
       location: 'Remseck am Neckar, Deutschland',
       period: '07.2025 - 09.2025',
-      type: 'Praktikum vor Ort',
+      type: 'Pflichtpraktikum (teilweise vor Ort / Hybrid)',
       description: [
         'Dynamischen API-Sicherheitstests mit Sicherheitswarnungen automatisiert.',
         'Statischer Code-Scans in CI/CD-Pipelines zur frühen Erkennung von Softwareschwachstellen automatisiert.',

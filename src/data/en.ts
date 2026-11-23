@@ -105,7 +105,7 @@ Recommendations, tips, or even just networking requests are welcome!`,
       companyUrl: 'https://www.empplan.com/',
       location: 'Remseck am Neckar, Germany',
       period: 'Jul 2025 - Sep 2025',
-      type: 'On-site / Internship',
+      type: 'Mandatory Internship (partly on-site / hybrid)',
       description: [
         'Automated dynamic API security testing and alerting.',
         'Automated Static Application Security Testing into CI/CD pipelines for early vulnerability detection.',
