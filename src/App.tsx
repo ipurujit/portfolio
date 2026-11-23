@@ -46,7 +46,7 @@ const PortfolioContent: React.FC = () => {
         <PublicationsSection />
         <CertificationsSection />
         <LanguagesSection />
-        {/* <VolunteeringSection /> */}
+        <VolunteeringSection />
       </main>
 
       {/* Interactive skill filter notification bar */}

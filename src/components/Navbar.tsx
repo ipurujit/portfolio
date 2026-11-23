@@ -98,12 +98,12 @@ export const Navbar: React.FC = () => {
       label: data.navigation.workAuth,
       icon: <FileCheck className="w-4 h-4" aria-hidden="true" />,
     },
+    */
     {
       href: '#volunteering',
       label: data.navigation.volunteering,
       icon: <HeartHandshake className="w-4 h-4" aria-hidden="true" />,
     },
-    */
   ];
 
   const handleLanguageSelect = (newLocale: Locale) => {

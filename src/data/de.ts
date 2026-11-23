@@ -12,7 +12,7 @@ export const DE_DATA: PortfolioData = {
     nationality: 'Inder',
     bio:
       `Ich ermögliche sichere Architektur, Entwicklung, Bereitstellung und Verwaltung von Software und Infrastruktur:
-- Erfahrener Software- und Cloud-Engineer (3+ Jahre)
+- Mehrjähriger Software- und Cloud-Engineer (3+ Jahre)
 - Microsoft Certified Cloud and AI Security Engineer Associate (SC-500), CCNA
 - M.Sc. in angewandter Cybersicherheit (Erasmus Mundus CyberMACS, 3,92/4 Note)
 - C1-Deutsch (beweisbar mit TestDaF TDN 5 Ergebnis) und C2-Englisch
@@ -25,10 +25,8 @@ Was ich mitbringe:
 
 Ich suche Stellen wie die Folgenden:
 - Cyber Security Engineer/Consultant
-- Cloud Engineer/Consultant/Architekt
-- System Administrator/DevOps Engineer/Fachinformatiker für Systemintegration
-- Software Engineer
-- Forward Deployed Engineer
+- Cloud oder DevOps Engineer/Consultant
+- Software Engineer/Consultant/Architekt
 
 Verfügbarkeit: ab sofort
 
@@ -410,23 +408,23 @@ Empfehlungen, Tipps oder auch nur Vernetzen-Anfragen sind willkommen!`,
     {
       id: 'nss-sowrait',
       role: 'National Service Scheme (NSS) Ehrenamtlicher',
-      organization: '',
+      organization: 'NSS RAIT',
       period: '09.2019 - 05.2021',
       description: [
-        'Organisiert und engagiert in Gemeinschaftsdienstveranstaltungen für die Verbesserung der Gesellschaft, wie z.B. Frauenförderung, Bildung benachteiligter Kinder und Verbreitung von Gesundheitssicherheitsbewusstsein während der Pandemie.',
-        'Teilnahme an einem 7-tägigen Camp in einem ländlichen Gebiet zur Arbeit an der ländlichen Entwicklung.',
-        'Preise bei universitätsweiten literarischen Wettbewerben, die für soziale Zwecke durchgeführt wurden: Rap-Gesang (über Frauenförderung, COVID-Bewusstsein), Gedichteschreiben (über AIDS-Bewusstsein)',
+        'Organisiert und engagiert in Gemeinschaftsdienstveranstaltungen für die Verbesserung der Gesellschaft, wie z.B. Frauenförderung, Bildung benachteiligter Kinder und Verbreitung von Gesundheitsaufklärung während der Pandemie',
+        'Teilnahme an einem 7-tägigen Camp in einem ländlichen Gebiet zur Arbeit an der ländlichen Entwicklung',
+        'Preise bei universitätsweiten literarischen Wettbewerben, die für soziale Zwecke durchgeführt wurden: Rap-Gesang (über Frauenförderung, COVID-19 Awareness), Gedichteschreiben (über AIDS-Awareness)',
       ],
       skills: [],
     },
     {
       id: 'orph-leader',
       role: 'Waisenhaus Koordinator',
-      organization: '',
+      organization: 'SocialWing RAIT',
       period: '08.2019 - 05.2020',
       description: [
-        'Verwaltung eines Teams von über 70 studentischen Freiwilligen, um Kinder in Waisenhäusern zu besuchen und zu unterrichten.',
-        'Während meiner Amtszeit haben wir über 250 Freiwilligenbesuche abgeschlossen.',
+        'Verwaltung eines Teams von über 70 studentischen Ehrenamtlichen, um Kinder in Waisenhäusern in der Nähe zu besuchen und zu unterrichten oder beim Lernen zu unterstützen',
+        'Während meiner Amtszeit haben wir über 250 Freiwilligenbesuche abgeschlossen',
       ],
       skills: [],
     },

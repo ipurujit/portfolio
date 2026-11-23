@@ -18,19 +18,15 @@ export const EN_DATA: PortfolioData = {
 - C1-level German (proof: TestDaF score of TDN 5) and C2-level English
 
 What I bring with me:
-
 - Software Engineering: Java/Spring Boot, Node.js/TypeScript, React/Next.js, PostgreSQL, MongoDB, Kafka, Python
 - Cloud and IAM: Multi-cloud (AWS/GCP/Azure), IAM roles and policies, federated identities (OIDC, OAuth 2.0, SAML), Workload Identity Federation, Keycloak
 - AppSec and DevSecOps: SAST (SonarQube) and DAST (ZAP) in CI/CD pipelines, Terraform, Kubernetes, Docker
 - GRC: Vulnerability and incident management according to ISO/IEC 27001 and BSI IT-Grundschutz, risk analysis and assessment
 
 I am open to the following kind of roles:
-
 - Cybersecurity Engineer/Consultant
-- Cloud Engineer/Consultant/Architect
-- System Administrator/DevOps Engineer
-- Software Engineer
-- Forward Deployed Engineer
+- Cloud or DevOps Engineer/Consultant
+- Software Engineer/Consultant/Architect
 
 Availability: immediately
 
@@ -412,11 +408,11 @@ Recommendations, tips, or even just networking requests are welcome!`,
     {
       id: 'nss-sowrait',
       role: 'National Service Scheme (NSS) Volunteer',
-      organization: '',
+      organization: 'NSS RAIT',
       period: 'Sep 2019 - May 2021',
       description: [
-        'Organized and engaged in community service events for the betterment of society, such as for women empowerment, education of underprivileged children, spreading health safety awareness during the pandemic.',
-        'Attended a 7-day camp in a rural area working on rural development.',
+        'Organized and engaged in community service events for the betterment of society, such as for women empowerment, education of underprivileged children, spreading health safety awareness during the pandemic',
+        'Attended a 7-day camp in a rural area working on rural development',
         'Won prizes at university-level literary competitions conducted for social cause: Rap singing (on women empowerment, COVID awareness), poem writing (on AIDS awareness)'
       ],
       skills: [],
@@ -424,11 +420,11 @@ Recommendations, tips, or even just networking requests are welcome!`,
     {
       id: 'orph-leader',
       role: 'Orphanage Co-ordinator',
-      organization: '',
+      organization: 'SocialWing RAIT',
       period: 'Aug 2019 - May 2020',
       description: [
-        'Managed a team of over 70 student volunteers to visit and teach children at orphanages.',
-        'The team completed over 250 volunteer visits during my tenure.',
+        'Managed a team of over 70 student volunteers to visit and teach children at orphanages',
+        'The team completed over 250 volunteer visits during my tenure',
       ],
       skills: [],
     },
